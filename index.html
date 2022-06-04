@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js">  </script>
+       
+    </head>
+    <body>
+        <h1 class="header">Click It and Change the colour</h1>
+        <select class="btn-btn-btn" id="se">
+            <option value="white" class="btn-btn-d">Choose colour</option>
+            <option value="greenyellow" class="btn-btn-g" >Green</option>
+            <option value="orangered " class="btn-btn-r">Orange</option>
+            <option value="yellow" class="btn-btn-y">Yellow</option>
+
+
+        </select>
+        <script type="text/javascript">
+            $("#se").change(function(){
+                var clr =document.getElementById("se").value;
+                $(".btn-btn-btn").css("background-color",clr)
+            })
+        </script>
+    </body>
+</html>
