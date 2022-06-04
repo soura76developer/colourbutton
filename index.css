@@ -1,0 +1,51 @@
+.btn-btn-btn{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 45%;
+    background-color:whitesmoke;
+    color: black;
+    width: 130px;
+    height: 50px;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none;
+}
+
+/* .btn-btn-d{
+    font-weight: 600;
+    height: 40px;
+   
+}
+
+
+.btn-btn-g{
+    font-weight: 600;
+    background-color:greenyellow ;
+    color: aliceblue;
+    height: 50px;
+}
+
+.btn-btn-g:hover{
+background-color:greenyellow  ;
+
+}
+
+.btn-btn-r{
+    font-weight: 600;
+    background-color:orangered ;
+    color: aliceblue;
+}
+
+
+.btn-btn-y{
+    font-weight: 600;
+    background-color:yellow ;
+    color: black;
+} */
+
+.header{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 33%;
+    color: blueviolet;
+}
